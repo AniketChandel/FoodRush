@@ -1,0 +1,33 @@
+.cat-box{
+    display: inline-block;
+    margin-top: 20px;
+     text-align: center;
+    margin-left: 20px;
+
+
+
+}
+.cat-box:hover {
+    transform: scale(1.09);
+
+}
+
+.cat-box img{
+display: block;
+border-radius: 50%;    
+height:250px;
+width:250px;
+margin-left: 50px;
+margin-top: 60px;
+margin-right: 50px;
+
+
+}
+.cat-box img:hover{
+   border-color: #00eaff;
+    box-shadow: 0 0 8px #00eaff, 0 0 18px rgba(0, 234, 255, 0.7);
+}
+
+.cat-box h2{
+    display: block;
+}

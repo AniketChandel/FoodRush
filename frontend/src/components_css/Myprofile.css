@@ -1,0 +1,124 @@
+#profile-bg { 
+    background-image: url(./profile1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff7ed;
+}
+
+#profile-title { 
+    text-align: center; 
+    color: #ff9d00;  
+    font-size: 50px; 
+    padding-top: 50px;
+} 
+
+#profile-icon { 
+    text-align: center; 
+    border-radius: 50%; 
+ 
+} 
+
+#profile-img { 
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
+   
+} 
+
+#profile-name,
+#profile-email { 
+    text-align: center; 
+    margin: 30px; 
+    font-size: 30px; 
+} 
+
+#profile-name { 
+    color: #ffb000; 
+} 
+
+#profile-email { 
+    color: #f5e6d3; 
+    font-weight: normal; 
+} 
+
+.profile-info { 
+    color: #ffb000;  
+    font-size: 40px; 
+    margin-top: 80px; 
+    margin-bottom: 20px;
+    margin-left: 4em; 
+} 
+
+.profile-heading { 
+    color: #ffc266;
+    font-size: 30px; 
+    margin-left: 8em; 
+    display: inline-block; 
+    width:200px; 
+    margin-top: 60px; 
+} 
+
+h5 { 
+    display: inline-block; 
+    height: 30px; 
+    width: 800px; 
+    box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.55);  
+    border-radius: 10px; 
+    text-align: center; 
+    padding: 8px; 
+    margin-left: 2.3em; 
+    margin-right: 10em; 
+    font-size: 20px; 
+    background-color: #fff8f0;
+    color: #5c2418;
+} 
+
+.profile-value { 
+    width: 280px; 
+    padding: 8px; 
+    border: 2px solid #7f2d20; 
+    border-radius: 5px; 
+    background-color: #321914; 
+    color: #fff7ed; 
+} 
+
+.btn { 
+    background: #e85d04; 
+    color: #ffffff; 
+    border: none; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    margin-top: 80px; 
+    margin-bottom: 50px; 
+    font-size: 23px; 
+    margin-left: 30em; 
+    cursor: pointer; 
+} 
+
+#address-detail { 
+    background-color: rgba(45, 20, 16, 0.92); 
+    box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.55);  
+    height: 20em; 
+    width: 80em; 
+    text-align: center; 
+    border-radius: 30px; 
+    margin-left: 3em; 
+    padding: 50px; 
+    margin-top: 5em; 
+} 
+
+.btn:hover { 
+    background: #ff7b00; 
+    box-shadow: 0 0 12px rgba(255, 123, 0, 0.55);
+}
+#title {
+   margin-top:60px;
+   margin-bottom: 20px;
+    font-size: 40px;
+    font-weight:bold;
+text-align:left;
+    margin-left: 5px;
+    color: black;
+   
+}

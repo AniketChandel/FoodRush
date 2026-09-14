@@ -1,0 +1,62 @@
+
+
+#addingfoods{
+    width:450px;
+    margin-left:32em;
+    margin-top:10em;
+    padding:25px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 4px 15px #ccc;
+}
+
+.food-form{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+#add{
+    text-align:center;
+    margin:15px;
+}
+
+.add{
+    font-weight:bold;
+    margin-top:8px;
+}
+
+.food-form input,
+.food-form select{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:15px;
+}
+
+.food-type{
+    display:flex;
+    gap:25px;
+    margin:8px 0;
+}
+
+.food-type label{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+.food-form button{
+    margin-top:15px;
+    padding:11px;
+    border:0;
+    border-radius:6px;
+    background:#f32078;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.food-form button:hover{
+    background:#d91568;
+}

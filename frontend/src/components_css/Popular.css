@@ -1,0 +1,99 @@
+
+.box1{
+ 
+    height:250px;
+    width:250px;
+    margin-left: 30px;
+    margin-top:30px;
+    border-radius: 20px;
+    flex-shrink: 0;
+  
+
+
+}
+
+
+
+.box1 img{
+height:250px;
+border-radius: 15px;
+width:250px;
+
+ 
+}
+.box1 #food-name{
+    text-align: center;
+    font-size: 25px;
+    font-weight:600; 
+}
+.box1 , #food-price{
+    display: inline-block;
+    font-size: 25px;
+     font-weight:600; 
+    
+ 
+    
+}
+.box1:hover {
+    transform: scale(1.09);
+
+}
+#box2 {
+  
+    padding-left:20px;
+     border-radius: 8px;
+margin-top: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    
+}
+
+.box1 #food-rating{
+    display: inline-block;
+    margin-left: 80px;
+font-size: 25px;
+margin-bottom: 20px;
+}
+
+#arrow {
+    width: 50px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+
+#order{
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #ffd900;
+   border:none;
+   text-align: center;
+padding-left:10px;
+padding-right:10px;
+margin-left: 20px;
+    margin-bottom: 20px;
+    cursor:pointer; 
+   
+}
+#order:hover{
+    background-color: #ffaa00;
+}
+.box1{
+margin-top: 30px;
+margin-bottom: 60px;
+}
+#boxes{
+    margin-bottom: 250px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  padding-bottom: 20px;
+  margin-top: 40px;
+  border-radius: 20px;
+
+ 
+    
+}
+#order:hover {
+    background-color: #ffaa00;  
+}

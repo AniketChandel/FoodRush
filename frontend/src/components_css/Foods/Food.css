@@ -1,0 +1,52 @@
+#poster{
+    height:30em;
+    width:70em;
+    margin-top:60px;
+    margin-left:200px;
+    background-color:black;
+}
+#pop2{
+    text-align:left;
+    margin-top:60px;
+    margin-left:30px;
+    font-size:30px;
+}
+
+.pop-box{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    display:inline-block;
+   
+}
+.pop-name{
+     margin-left:25px;
+    font-size:20px;
+}
+.popularFood-box{
+    display:inline-block;
+    height:10em;
+    width:15em;
+    margin-left:40px;
+    margin-top:20px;
+}
+#arrow-pop{
+    height:60px;
+    padding:10px;
+    border:none;
+}
+#arrow{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin-bottom: 100px;
+}
+#title {
+   margin-top:30px;
+   margin-bottom: 20px;
+    font-size: 30px;
+    font-weight:bold;
+    margin-left: 5px;
+    color: black;
+   
+}

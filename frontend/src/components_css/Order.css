@@ -1,0 +1,117 @@
+#my-order-bg {
+    min-height: 100vh;
+    background-color: #fff6ed;
+    padding: 45px 8%;
+}
+
+#my-order-title {
+    text-align: center;
+    font-size: 45px;
+    color: #7b1e1e;
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+#order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.order-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.order-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 9px 25px rgba(0, 0, 0, 0.22);
+}
+
+.order-food {
+    width: 150px;
+    height: 130px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.order-food img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.order-info {
+    flex: 1;
+    padding-left: 28px;
+}
+
+.order-info h2 {
+    margin: 0 0 8px;
+    color: #3d2020;
+}
+
+.order-info p {
+    margin: 7px 0;
+    color: #666;
+}
+
+.restaurant-name {
+    color: #e85d04 !important;
+    font-weight: bold;
+}
+
+.order-date {
+    font-size: 14px;
+}
+
+.order-status {
+    text-align: right;
+    min-width: 160px;
+}
+
+.order-status h2 {
+    color: #7b1e1e;
+    margin-top: 0;
+}
+
+.delivered,
+.on-way {
+    display: inline-block;
+    padding: 6px 13px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.delivered {
+    background-color: #dff5e7;
+    color: #17823b;
+}
+
+.on-way {
+    background-color: #fff0d2;
+    color: #c26500;
+}
+
+.order-status button {
+    display: block;
+    margin-left: auto;
+    border: none;
+    background-color: #e85d04;
+    color: white;
+    padding: 9px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.order-status button:hover {
+    background-color: #b93800;
+}

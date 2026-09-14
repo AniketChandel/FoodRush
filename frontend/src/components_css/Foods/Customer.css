@@ -1,0 +1,46 @@
+.review-boxes{
+
+}
+.review-box{
+     display:inline-block;
+    background-color: rgb(255, 255, 255);
+   box-shadow: 10px 20px 18px 20px rgba(0, 0, 0, 0.12);
+    height:15em;
+    width:90em;
+    margin-top:40px;
+    margin-left: 2em;
+   
+    border-radius:20px;
+
+   
+}
+.customer-details{
+    display:inline-block;
+    width:75em;
+    margin-left:3em;
+}
+.customer-image{
+display:inline-block;
+height:120px;
+width:120px;
+margin-top:20px;
+margin-left:40px;
+border-radius:50%;
+}
+.customer-name{
+font-size:30px;
+    display:inline-block;
+    margin-top:50px;
+    margin-right:50px;
+
+}
+.customer-rating{
+    font-size:30px;
+ display:inline-block;
+ color: #ffc107;
+}
+.customer-review{
+ display:inline-block;
+ font-size:20px;
+ margin-top:20px;
+}

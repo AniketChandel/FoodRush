@@ -1,0 +1,36 @@
+body{
+background-color: #FFF8F0;
+
+}
+#box {
+    margin-top: 30px;
+    height: 35em;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#content {
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 30%;
+    font-size: 25px;
+  
+    text-align: center;
+}
+
+#content-heading {
+color: #FFD54F;
+    font-size: 3rem;
+}
+
+#content-summary {
+      color: #FFFFFF;
+    font-size: 1.3rem;
+}

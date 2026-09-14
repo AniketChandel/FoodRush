@@ -1,5 +1,4 @@
-create database foodrush;
-use foodrush;
+
 create table restaurants (
     id int auto_increment primary key,
     owner_id int,
@@ -35,5 +34,3 @@ create table foods (
     category varchar(50),
     type varchar(10)
 );
-describe users;
-select * from restaurants;

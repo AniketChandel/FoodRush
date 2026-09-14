@@ -1,0 +1,18 @@
+name: Setup Railway Database
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install MySQL client
+        run: sudo apt-get update && sudo apt-get install -y mysql-client
+
+      - name: Create database tables
+        run: mysql -h "${{ secrets.MYSQLHOST }}" -P "${{ secrets.MYSQLPORT }}" -u "${{ secrets.MYSQLUSER }}" -p"${{ secrets.MYSQLPASSWORD }}" "${{ secrets.MYSQLDATABASE }}" < foodrush.sql

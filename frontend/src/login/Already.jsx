@@ -6,9 +6,9 @@ export function Already(){
 
 e.preventDefault();
 const form =new FormData(e.target)
-const res=await fetch(("http://localhost:5000/login"),{
-  method:"POST",
-  body:form
+const res = await fetch(("https://foodrush-backend-l966.onrender.com/login"), {
+    method: "POST",
+    body: form
 }
 )
 const result=await res.json();

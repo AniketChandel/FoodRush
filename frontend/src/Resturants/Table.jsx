@@ -9,11 +9,10 @@ export function Table({restaurant_id,getFoods}){
         const form = new FormData(e.target)
         console.log("restaurant_id:", restaurant_id);
         form.append("restaurant_id", restaurant_id)
-
-        const resp = await fetch("http://localhost:5000/addfood", {
-            method: "POST",
-            body: form
-        })
+const resp = await fetch("https://foodrush-backend-l966.onrender.com/addfood", {
+    method: "POST",
+    body: form
+})
 
         const result = await resp.json()
         console.log(result)

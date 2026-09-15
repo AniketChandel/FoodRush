@@ -5,7 +5,7 @@ export function Ownerdetails(){
    async function submitdetails(e){
     e.preventDefault();
     const form=new FormData(e.target)
- const response = await fetch("http://localhost:5000/addRestaurant", {
+const response = await fetch("https://foodrush-backend-l966.onrender.com/addRestaurant", {
         method: "POST",
         body: form
     });

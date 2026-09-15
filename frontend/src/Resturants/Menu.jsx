@@ -17,9 +17,9 @@ export function Menu(){
     console.log("restaurant id:", restaurant_id);
 
     async function getFoods() {
-        const f = await fetch(
-            `http://localhost:5000/foods/restaurant/${restaurant_id}`
-        );
+  const f = await fetch(
+    `https://foodrush-backend-l966.onrender.com/foods/restaurant/${restaurant_id}`
+);
 
         const res = await f.json();
         setfoods(res);

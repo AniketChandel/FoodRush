@@ -12,7 +12,7 @@ export function Foods() {
 
             try {
 
-                const response = await fetch("http://localhost:5000/nearby-food", {
+                const response = await fetch("https://foodrush-backend-l966.onrender.com/nearby-food", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
@@ -52,39 +52,32 @@ export function Foods() {
                         <img
                             src={
                                 v.image
-                                    ? `http://localhost:5000/uploads/${v.image}`
+                                    ? `https://foodrush-backend-l966.onrender.com/uploads/${v.image}`
                                     : "/rest.png"
                             }
                             className="resturant-img"
                         />
 
                         <div className="describe">
-                            <div className="describe-small" >
-                            <p>{v.food_name.toUpperCase()}</p>
-                           <p>{v.name? v.name.replace(/\b\w/g, char => char.toUpperCase()): "Restaurant"}</p>
-                           <p>₹{v.price}</p>
-                           
-</div>
-                            
+                            <div className="describe-small">
+                                <p>{v.food_name.toUpperCase()}</p>
+                                <p>{v.name ? v.name.replace(/\b\w/g, char => char.toUpperCase()) : "Restaurant"}</p>
+                                <p>₹{v.price}</p>
+                            </div>
 
-                            
-<div className="describe-big" >
-                         
-                            <p>{v.food_description}</p>
-
-                            <p>{v.description}</p>
-
-                            <p> {v.opening_time} - {v.closing_time}</p>
-</div>
-   </div>
+                            <div className="describe-big">
+                                <p>{v.food_description}</p>
+                                <p>{v.description}</p>
+                                <p>{v.opening_time} - {v.closing_time}</p>
+                            </div>
                         </div>
 
-                 
+                    </div>
 
                 ))}
 
             </div>
-            </div>
+        </div>
         </>
     )
 }

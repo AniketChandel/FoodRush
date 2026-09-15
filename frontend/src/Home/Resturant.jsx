@@ -9,7 +9,7 @@ export function Resturant() {
 
         async function getRestaurants() {
 
-            const response = await fetch("http://localhost:5000/restaurants")
+            const response = await fetch("https://foodrush-backend-l966.onrender.com/restaurants")
 
             const result = await response.json()
 
@@ -30,13 +30,14 @@ export function Resturant() {
 
                     <div className="box1" key={restaurant.id}>
 
-                       <img src={`http://localhost:5000/uploads/${restaurant.image}`} alt={restaurant.name}></img>
+                        <img
+                            src={`https://foodrush-backend-l966.onrender.com/uploads/${restaurant.image}`}
+                            alt={restaurant.name}
+                        />
 
                         <h3 id="restaurant-name">
                             {restaurant.name}
                         </h3>
-
-                      
 
                         <button id="order">
                             View Restaurant

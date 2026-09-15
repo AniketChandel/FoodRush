@@ -5,9 +5,9 @@ export function Login(){
     async function submit(e){
 e.preventDefault();
   const form = new FormData(e.target);
-const res=await fetch("http://localhost:5000/signup",{
-    method:"POST",
-    body:form
+const res = await fetch("https://foodrush-backend-l966.onrender.com/signup", {
+    method: "POST",
+    body: form
 })
 const result=await res.json()
 console.log(result);

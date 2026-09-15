@@ -8,13 +8,13 @@ export function Location() {
              const longitude=position.coords.longitude;
 
         
-     const response=  await fetch("http://localhost:5000/restaurants/nearby", {
-            method:"POST",
-            headers:{
-                "Content-Type":"application/json"
-            },
-            body:JSON.stringify({latitude,longitude})
-        }
+const response = await fetch("https://foodrush-backend-l966.onrender.com/restaurants/nearby", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ latitude, longitude })
+}
         )
             const result=await  response.json()
             result.results.map((res)=>{

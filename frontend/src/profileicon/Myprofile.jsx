@@ -9,15 +9,14 @@ export function Myprofile(){
 
     useEffect(() => {
 
-        async function getprofile(){
+   async function getprofile() {
 
-            const response = await fetch(`http://localhost:5000/myprofile/${userid}`);
-            
+    const response = await fetch(`https://foodrush-backend-l966.onrender.com/myprofile/${userid}`);
 
-            const result = await response.json();
+    const result = await response.json();
 
-            newstate(result);
-        }
+    newstate(result);
+}
 
         getprofile();
 

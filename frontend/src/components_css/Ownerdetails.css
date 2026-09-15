@@ -1,6 +1,9 @@
 #owner-box {
     width: 700px;
     margin-left: 26em ;
+    background-image: url("/cart.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 30px 40px;
     background-color: white;
     border-radius: 20px;

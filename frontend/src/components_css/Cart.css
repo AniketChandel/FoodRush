@@ -8,7 +8,7 @@
 }
 
 #cart-bg {
-    background-image: url(./cart.png);
+    background-image: url(/cart.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;

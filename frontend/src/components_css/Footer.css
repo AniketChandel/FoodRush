@@ -1,7 +1,7 @@
 #footer-box {
     margin-top: 50px;
     height: 30em;
-      background-image: url(./footerbox.png);
+      background-image: url(/footerbox.png);
        background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 -3px 15px rgba(0,0,0,0.25);

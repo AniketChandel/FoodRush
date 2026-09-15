@@ -12,7 +12,7 @@
            gap: 40px;
 }
 .offer-box{
-background-image: url(./offer.jpg);
+background-image: url(/offer.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 color: white;

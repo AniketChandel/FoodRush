@@ -84,7 +84,7 @@
     background-color: white;
 }
 #popup-box{
-  background-image:url(./profilecolor.jpg);
+  background-image:url(/profilecolor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
     box-shadow: 0.5px 0.5px 0.5px 0.5px;

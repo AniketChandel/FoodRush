@@ -1,9 +1,11 @@
+require("dotenv").config();
 const express = require("express");
+
 const db = require("./db");
 const cors = require("cors");
 const multer = require("multer");
 const bcrypt = require("bcrypt");
-require("dotenv").config();
+
 
 const app = express();
 

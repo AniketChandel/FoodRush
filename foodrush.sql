@@ -1,5 +1,5 @@
 create database foodrush;
-use foodrush;
+
 create table restaurants (
     id int auto_increment primary key,
     owner_id int,

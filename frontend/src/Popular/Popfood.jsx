@@ -7,7 +7,7 @@ import { Choose } from "./Choose.jsx";
 import { Customer } from "./Customer.jsx";
 import { Footer } from "../Home/Footer.jsx";
 export function Popfood(){
-    const n=5;
+    const n=4;
     const [start,setStart]=useState(0)
     function changeDish(){
 
